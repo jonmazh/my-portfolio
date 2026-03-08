@@ -1,19 +1,16 @@
 author:
-  name: Dasein
-  role: PhD in Philosophy
-  bio:  Known for contributions to phenomenology, hermeneutics, and existentialism.
-  location: Munich, Germany
+  name: Jon Mazcuñán
+  role: Software Developer
+  bio:  Computer and Software Engineer student at Universidad Rey Juan Carlos, just about to graduate. Passionate about software development, open source, and technology in general. Always eager to learn and contribute to the tech community.
+  location: Madrid, Spain.
 
 social:
-  - id: "x"
-    label: "X"
-    href: "#_"
   - id: "github"
     label: "GitHub"
-    href: "https://github.com/roicort"
+    href: "https://github.com/jonmazh"
   - id: "linkedin"
     label: "Linkedin"
-    href: "#_"
+    href: "https://www.linkedin.com/in/jon-mazcu%C3%B1%C3%A1n-hern%C3%A1ndez-701308346/"
   - id: "email"
     label: "Email"
-    href: "mailto:"
+    href: "mailto:jonmazh@gmail.com"

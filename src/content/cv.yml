@@ -1,32 +1,55 @@
-- id: "education"
+# src/content/cv.yml
+# ⚠️ Eliminá el $schema del codecv — Astro usa su propio esquema definido en content.config.ts
+- id: experience
+  heading: "Experience"
+  items:
+    - title: "Full Stack Developer (Professional Project)"
+      description: "Mar y Bosque, Costa Rica. Designed and deployed a custom ERP and international booking engine. Managed the full SDLC, ensuring database integrity and high availability for a real-world production environment."
+      datetime: "2023-08 / 2024-01"
+      dateLabel: "Aug 2023 – Jan 2024"
+    - title: "Digitalization Volunteer"
+      description: "Bahía Drake, Costa Rica. Spearheaded digital transformation for local businesses by developing web platforms and custom admin dashboards to optimize operational workflows."
+      datetime: "2024-07 / 2024-08"
+      dateLabel: "Jul 2024 – Aug 2024"
+
+- id: education
   heading: "Education"
   items:
-    - title: "PhD in Philosophy"
-      description: "Focused on Existentialism and its impact on contemporary thought."
-      datetime: "2020 – 2022"
-    - title: "Bachelor's in Philosophy"
-      description: "Studied philosophy with an emphasis on critical thinking and ethical reasoning."
-      datetime: "2016 – 2020"
-    - title: "Diploma in Philosophy"
-      description: "Learned existentialism, phenomenology, and the history of philosophy."
-      datetime: "2014 – 2016"
+    - title: "B.S. in Computer Science & Software Engineering"
+      description: "Universidad Rey Juan Carlos (URJC), Madrid. Double Degree candidate focusing on distributed systems and software architecture. (Expected graduation: 2027)."
+      datetime: "2022 / 2027"
+      dateLabel: "2022 – 2027"
+    - title: "International Academic Exchange"
+      description: "Universidad Argentina de la Empresa (UADE), Buenos Aires. One-year immersion in global development methodologies and multicultural team management."
+      datetime: "2024 / 2025"
+      dateLabel: "2024 – 2025"
 
-- id: "teaching"
-  heading: "Teaching"
+- id: certifications
+  heading: "Certifications & Roadmap"
   items:
-    - title: "Epistemology Course"
-      description: "Taught an introductory course on epistemology, covering foundational concepts, theories, and debates in the field. Designed and delivered lectures, facilitated discussions, and graded assignments."
-      datetime: "2024"
-    - title: "Metaphysics"
-      description: "Explored the nature of existence, reality, and the relationship between mind and matter."
-      datetime: "2023"
+    - title: "Full Stack Open"
+      description: "University of Helsinki. Intensive training in React, Node.js, Redux, and Test-Driven Development (TDD)."
+    - title: "JS Algorithms & Data Structures"
+      description: "freeCodeCamp. Solved 1,000+ logic and advanced algorithm challenges."
+    - title: "The Missing Semester of CS Education"
+      description: "MIT. Mastery of CLI, automation, shell scripting, and advanced developer productivity tools."
+    - title: "Cloud & Interview Prep"
+      description: "AWS Cloud Practitioner Essentials & NeetCode (Advanced Data Structures for FAANG-level interviews)."
 
-- id: "speaking"
-  heading: "Speaking"
+- id: skills
+  heading: "Skills"
   items:
-    - title: "Heidegger's Philosophy of Being"
-      description: "Delivered a keynote on Martin Heidegger's philosophy of being, exploring the concept of existence and the relationship between humans and the world."
-      datetime: "2023"
-    - title: "Hegel's Philosophy of History and Dialectics"
-      description: "Hegel's philosophy of history and dialectics has been a significant influence on my design thinking. I have incorporated his ideas into my work, emphasizing the importance of understanding the context and evolution of design."
-      datetime: "2022"
+    - title: "Frontend"
+      description: "JavaScript (ES6+), React, HTML5, CSS3 (Flexbox/Grid), Web APIs."
+    - title: "Backend & Systems"
+      description: "Java, Node.js, Python, SQL, Microservices Architecture."
+    - title: "DevOps & Tools"
+      description: "Docker (Containerization), Git/GitHub Actions, Linux/Bash, TDD."
+
+- id: languages
+  heading: "Languages"
+  items:
+    - title: "Spanish"
+      description: "Native"
+    - title: "English"
+      description: "Full Professional Proficiency (C1). Experienced in international work environments."

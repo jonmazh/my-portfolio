@@ -1,21 +1,35 @@
 ---
-title: First post
-description: Lorem ipsum dolor sit amet
-pubDate: 2026-01-15
-updatedDate: 2026-01-15
-heroImage: ../../assets/blog-placeholder-3.png
-author: rodrigo
+title: "Fundamentos de JavaScript: Variables y Strings en FreeCodeCamp"
+description: "Resumen de mi aprendizaje de hoy repasando los pilares de JS a través de la plataforma FreeCodeCamp."
+pubDate: 2026-03-07
+updatedDate: 2026-03-07
+heroImage: ../../assets/blog-placeholder-2.png
+author: jonmh
 tags:
-  - astro
-  - intro
+  - javascript
+  - learning
+  - freecodecamp
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Hoy he dedicado la sesión de estudio a consolidar los cimientos de **JavaScript** mediante los desafíos de FreeCodeCamp. Aunque parecen conceptos básicos, entender cómo el motor de JS maneja la memoria y las cadenas de texto es vital para evitar bugs en el futuro.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Todo este proceso y mis notas detalladas las estoy centralizando en mi repositorio de GitHub: [jonmazh/fcc-javascript-notes](https://github.com/jonmazh/fcc-javascript-notes).
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+### 1. Gestión de Variables: var, let y const
+Uno de los puntos clave del repaso ha sido la diferencia de *scope* y la mutabilidad.
+- **`const`**: Para valores que no deben cambiar. Es mi opción por defecto para mantener el código predecible.
+- **`let`**: Cuando necesito reasignar valores (como en contadores de bucles).
+- **`var`**: Un vistazo al pasado. Entender por qué ya no se recomienda debido al *hoisting* y al ámbito de función vs. ámbito de bloque.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+### 2. Manipulación de Strings
+JavaScript ofrece una versatilidad increíble para trabajar con texto. He profundizado en:
+- **Concatenación vs. Template Literals**: Cómo las *backticks* (`` ` ``) hacen que el código sea mucho más legible al interpolar variables.
+- **Inmutabilidad**: Recordar que no puedes cambiar un carácter individual de un string mediante su índice; hay que reasignar la variable completa.
+- **Métodos esenciales**: Uso de `.length` y acceso a caracteres mediante corchetes `[]`.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+### Reflexión del día
+Como estudiante de **Ingeniería Informática (GII + GIS)**, a veces tendemos a querer saltar directamente a la arquitectura compleja. Sin embargo, este repaso en FreeCodeCamp me recuerda que la elegancia de un sistema nace de entender perfectamente sus piezas más pequeñas.
+
+> "La programación no se trata de lo que sabes; se trata de lo que puedes descifrar."
+
+Seguiré actualizando mis notas en el repositorio a medida que avance en los módulos de estructuras de datos y algoritmos.
