@@ -1,5 +1,5 @@
 ---
-title: "Dominando la Lógica de JS: Funciones, Arrays y Control de Flujo"
+title: "JS 2. Dominando la Lógica de JS: Funciones, Arrays y Control de Flujo"
 description: "Segunda jornada intensa en FreeCodeCamp: de la aritmética básica a la creación de algoritmos funcionales y manipulación de estructuras de datos."
 pubDate: 2026-03-08
 updatedDate: 2026-03-08

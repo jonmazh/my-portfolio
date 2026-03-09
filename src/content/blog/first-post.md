@@ -1,5 +1,5 @@
 ---
-title: "Fundamentos de JavaScript: Variables y Strings en FreeCodeCamp"
+title: "JS 1. Fundamentos de JavaScript: Variables y Strings en FreeCodeCamp"
 description: "Resumen de mi aprendizaje de hoy repasando los pilares de JS a través de la plataforma FreeCodeCamp."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
