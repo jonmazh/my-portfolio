@@ -3,7 +3,7 @@ title: "LC 1. Día 1: Java Reset y Primeros Problemas en LeetCode"
 description: "Primera jornada de bootcamp intensivo: configuración del entorno, crash course de Java y 10 problemas Easy resueltos."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-heroImage: ../../assets/blog-placeholder-2.png
+heroImage: ../../assets/leetCodeIcon.png
 author: jonmh
 tags:
   - java
